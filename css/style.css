@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    background-image:url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: aliceblue;
+    
+}
+.header__strong {
+    color:orangered;
+    font-size: xx-large;
+    
+}
+.form {
+    background-color: rgba(255, 255, 255, 0.562);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 33px 10px #4F4F4F;
+}
+.form__fieldset {
+ margin: 20px 0px;
+ border-radius: 5px;
+text-align: center;
+
+}
+.form__legend {
+    color:orangered;
+    font-size: larger;
+    font-weight: 400;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    padding:10px;
+}
+
+.form__weight {
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.form__height {
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.form__input {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.form__button {
+    padding:10px;
+    background-color: orangered;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    margin:10px;
+    width:50%;
+}
+
+.form__button:hover {
+    background-color:rgb(255, 68, 0);
+
+}
