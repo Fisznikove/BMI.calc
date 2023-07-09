@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: aliceblue;
+    
+}
+.header__strong {
+    color:orangered;
+    font-size: xx-large;
+    
+}
